@@ -7,6 +7,7 @@ Epoch:		1
 License:	GPL
 Group:		Applications/System
 Source0:	http://tinylogin.busybox.net/downloads/%{name}-%{version}.tar.bz2
+# Source0-md5:	1b81a1e105d749b3223cdda9b8d764ac
 URL:		http://tinylogin.busybox.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
