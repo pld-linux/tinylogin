@@ -33,8 +33,6 @@ dodatek do ka¿dego ma³ego lub wbudowanego systemu.
 	OPTIMIZATION="%{rpmcflags}" \
 	STRIPTOOL="echo"
 
-gzip -9nf Changelog LICENSE README TODO
-
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
@@ -47,6 +45,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc tinylogin.links docs/tinylogin.busybox.net/*
+%doc tinylogin.links docs/tinylogin.busybox.net/* Changelog LICENSE README TODO
 %attr(4755,root,root) %{_bindir}/tinylogin
 %{_mandir}/man1/tinylogin.1*
