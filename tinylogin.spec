@@ -11,7 +11,7 @@ Source0:	http://tinylogin.busybox.net/downloads/%{name}-%{version}.tar.bz2
 URL:		http://tinylogin.busybox.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%Description
+%description
 TinyLogin is a suite of tiny utilities in a multi-call binary, which
 enables your system to handle user authentication, and setting of
 passwords. It is a drop-in to works nicely with BusyBox (another
