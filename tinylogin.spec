@@ -1,13 +1,13 @@
 Summary:	A tiny utility suite for login and password handling
 Summary(pl):	Ma³e narzêdzie do obs³ugi logowania i hase³
 Name:		tinylogin
-Version:	1.02
+Version:	1.4
 Release:	1
 Epoch:		1
 License:	GPL
 Group:		Applications/System
 Source0:	http://tinylogin.busybox.net/downloads/%{name}-%{version}.tar.bz2
-# Source0-md5:	1b81a1e105d749b3223cdda9b8d764ac
+# Source0-md5:	44da0ff2b727455669890b24305e351d
 URL:		http://tinylogin.busybox.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
