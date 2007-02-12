@@ -1,5 +1,5 @@
 Summary:	A tiny utility suite for login and password handling
-Summary(pl):	Ma³e narzêdzie do obs³ugi logowania i hase³
+Summary(pl.UTF-8):   MaÅ‚e narzÄ™dzie do obsÅ‚ugi logowania i haseÅ‚
 Name:		tinylogin
 Version:	1.4
 Release:	1
@@ -18,12 +18,12 @@ passwords. It is a drop-in to works nicely with BusyBox (another
 multi-call binary), and makes an excellent addition to any small or
 embedded system.
 
-%description -l pl
-TinyLogin to zestaw ma³ych narzêdzi w pojedynczej binarce wywo³ywanej
-pod ró¿nymi nazwami. Narzêdzia te pozwalaj± na uwierzytelnianie
-u¿ytkowników i ustawianie hase³. TinyLogin dzia³a ³adnie z BusyBoksem
-(inn± binark± wywo³ywan± pod ró¿nymi nazwami) i stanowi doskona³y
-dodatek do ka¿dego ma³ego lub wbudowanego systemu.
+%description -l pl.UTF-8
+TinyLogin to zestaw maÅ‚ych narzÄ™dzi w pojedynczej binarce wywoÅ‚ywanej
+pod rÃ³Å¼nymi nazwami. NarzÄ™dzia te pozwalajÄ… na uwierzytelnianie
+uÅ¼ytkownikÃ³w i ustawianie haseÅ‚. TinyLogin dziaÅ‚a Å‚adnie z BusyBoksem
+(innÄ… binarkÄ… wywoÅ‚ywanÄ… pod rÃ³Å¼nymi nazwami) i stanowi doskonaÅ‚y
+dodatek do kaÅ¼dego maÅ‚ego lub wbudowanego systemu.
 
 %prep
 %setup -q
