@@ -1,5 +1,5 @@
 Summary:	A tiny utility suite for login and password handling
-Summary(pl.UTF-8):   Małe narzędzie do obsługi logowania i haseł
+Summary(pl.UTF-8):	Małe narzędzie do obsługi logowania i haseł
 Name:		tinylogin
 Version:	1.4
 Release:	1
